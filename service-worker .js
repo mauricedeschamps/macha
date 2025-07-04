@@ -1,4 +1,4 @@
-const CACHE_NAME = 'matcha-knowledge-v2';
+const CACHE_NAME = 'matcha-knowledge-v3';
 const urlsToCache = [
     '/',
     '/index.html',
@@ -14,8 +14,7 @@ const urlsToCache = [
     '/images/regions.jpg',
     '/images/storage.jpg',
     '/images/icons/icon-192x192.png',
-    '/images/icons/icon-512x512.png',
-    'https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap'
+    '/images/icons/icon-512x512.png'
 ];
 
 self.addEventListener('install', event => {
@@ -28,35 +27,32 @@ self.addEventListener('install', event => {
 });
 
 self.addEventListener('fetch', event => {
+    if (event.request.method !== 'GET') return;
+    
     event.respondWith(
         caches.match(event.request)
-            .then(response => {
-                // Cache hit - return response
-                if (response) {
-                    return response;
-                }
-                
-                // Clone the request
-                const fetchRequest = event.request.clone();
-                
-                return fetch(fetchRequest).then(
-                    response => {
-                        // Check if we received a valid response
-                        if(!response || response.status !== 200 || response.type !== 'basic') {
-                            return response;
-                        }
-                        
-                        // Clone the response
-                        const responseToCache = response.clone();
-                        
-                        caches.open(CACHE_NAME)
-                            .then(cache => {
-                                cache.put(event.request, responseToCache);
-                            });
-                            
-                        return response;
+            .then(cachedResponse => {
+                const fetchPromise = fetch(event.request).then(networkResponse => {
+                    // Only cache successful responses
+                    if (networkResponse.ok) {
+                        const cacheCopy = networkResponse.clone();
+                        caches.open(CACHE_NAME).then(cache => {
+                            cache.put(event.request, cacheCopy);
+                        });
                     }
-                );
+                    return networkResponse;
+                }).catch(() => {
+                    // If fetch fails, return cached response if available
+                    return cachedResponse || new Response('Offline content', {
+                        status: 503,
+                        statusText: 'Service Unavailable',
+                        headers: new Headers({
+                            'Content-Type': 'text/plain'
+                        })
+                    });
+                });
+                
+                return cachedResponse || fetchPromise;
             })
     );
 });
@@ -67,7 +63,7 @@ self.addEventListener('activate', event => {
         caches.keys().then(cacheNames => {
             return Promise.all(
                 cacheNames.map(cacheName => {
-                    if (cacheWhitelist.indexOf(cacheName) === -1) {
+                    if (!cacheWhitelist.includes(cacheName)) {
                         return caches.delete(cacheName);
                     }
                 })
