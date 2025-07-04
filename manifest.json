@@ -22,12 +22,6 @@
         }
     ],
     "categories": ["food", "education", "health"],
-    "screenshots": [
-        {
-            "src": "images/screenshot1.png",
-            "sizes": "750x1334",
-            "type": "image/png",
-            "description": "Matcha Knowledge App Home Screen"
-        }
-    ]
+    "lang": "en",
+    "dir": "auto"
 }
