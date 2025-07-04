@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matcha Knowledge</title>
+    <meta name="description" content="Learn everything about matcha green tea">
+    <meta name="theme-color" content="#2d6a4f">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="images/icon-192x192.png">
+</head>
+<body class="dark-mode">
+    <div class="app-container">
+        <header>
+            <h1 id="app-title">抹茶の知識</h1>
+            <div class="mode-switches">
+                <button id="theme-toggle" aria-label="Toggle theme">
+                    <span class="icon">🌓</span>
+                </button>
+                <button id="language-toggle" aria-label="Toggle language">
+                    <span class="icon">🌐</span>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <section class="knowledge-grid">
+                <!-- 各項目はJavaScriptで動的に生成 -->
+            </section>
+
+            <section id="detail-view" class="hidden">
+                <button id="back-button" class="back-btn">←</button>
+                <div class="detail-content">
+                    <h2 id="detail-title"></h2>
+                    <img id="detail-image" src="" alt="" class="detail-img">
+                    <p id="detail-description"></p>
+                    <a id="detail-link" href="#" target="_blank" class="external-link">さらに詳しく</a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <a href="mailto:mementomorikatsu@gmail.com" class="contact-link">
+                Contact me<br>mementomorikatsu@gmail.com
+            </a>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
