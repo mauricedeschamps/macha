@@ -1,14 +1,21 @@
-const CACHE_NAME = 'matcha-knowledge-v1';
+const CACHE_NAME = 'matcha-knowledge-v2';
 const urlsToCache = [
     '/',
     '/index.html',
     '/styles.css',
     '/app.js',
     '/images/matcha-powder.jpg',
-    '/images/matcha-latte.jpg',
-    '/images/matcha-sweets.jpg',
-    '/images/icon-192x192.png',
-    '/images/icon-512x512.png'
+    '/images/cultivation.jpg',
+    '/images/ceremony.jpg',
+    '/images/health.jpg',
+    '/images/types.jpg',
+    '/images/uses.jpg',
+    '/images/global.jpg',
+    '/images/regions.jpg',
+    '/images/storage.jpg',
+    '/images/icons/icon-192x192.png',
+    '/images/icons/icon-512x512.png',
+    'https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap'
 ];
 
 self.addEventListener('install', event => {
@@ -24,10 +31,32 @@ self.addEventListener('fetch', event => {
     event.respondWith(
         caches.match(event.request)
             .then(response => {
+                // Cache hit - return response
                 if (response) {
                     return response;
                 }
-                return fetch(event.request);
+                
+                // Clone the request
+                const fetchRequest = event.request.clone();
+                
+                return fetch(fetchRequest).then(
+                    response => {
+                        // Check if we received a valid response
+                        if(!response || response.status !== 200 || response.type !== 'basic') {
+                            return response;
+                        }
+                        
+                        // Clone the response
+                        const responseToCache = response.clone();
+                        
+                        caches.open(CACHE_NAME)
+                            .then(cache => {
+                                cache.put(event.request, responseToCache);
+                            });
+                            
+                        return response;
+                    }
+                );
             })
     );
 });
