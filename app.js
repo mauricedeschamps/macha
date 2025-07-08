@@ -7,8 +7,6 @@ const matchaData = {
             shortDesc: 'What makes matcha unique',
             longDesc: 'Matcha is a finely ground powder of specially grown green tea leaves. Unlike regular green tea, you consume the whole leaf, making it more nutritious. It\'s grown under shade which increases chlorophyll and amino acid content.',
             
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJdW6YUp7v5o5yB0KRXDeqt2iLSQSBrickR6PS2MTW-HDlob0Rhjct7U_d&s=10" alt="抹茶写真">
-
 image: 'images - 2025-07-08T170013.338.jpeg'
         },
         {
