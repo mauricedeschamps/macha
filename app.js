@@ -6,8 +6,7 @@ const matchaData = {
             title: 'Definition & Characteristics',
             shortDesc: 'What makes matcha unique',
             longDesc: 'Matcha is a finely ground powder of specially grown green tea leaves. Unlike regular green tea, you consume the whole leaf, making it more nutritious. It\'s grown under shade which increases chlorophyll and amino acid content.',
-            
-image: 'images - 2025-07-08T170013.338.jpeg'
+            image: 'images/definition.jpg'
         },
         {
             id: 'history',
