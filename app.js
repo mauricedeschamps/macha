@@ -6,7 +6,7 @@ const matchaData = {
             title: 'Definition & Characteristics',
             shortDesc: 'What makes matcha unique',
             longDesc: 'Matcha is a finely ground powder of specially grown green tea leaves. Unlike regular green tea, you consume the whole leaf, making it more nutritious. It\'s grown under shade which increases chlorophyll and amino acid content.',
-            image: 'images/definition.jpg'
+            image: 'images - 2025-07-08T170013.338.jpeg'
         },
         {
             id: 'history',
@@ -71,7 +71,7 @@ const matchaData = {
             title: '定義と特徴',
             shortDesc: '抹茶の独特な点',
             longDesc: '抹茶は碾茶を石臼で挽いた粉末茶です。普通の緑茶と違い、茶葉全体を摂取するため栄養価が高いです。覆下栽培によりクロロフィルとアミノ酸が増加します。',
-            image: 'images/definition.jpg'
+            image: 'images - 2025-07-08T170013.338.jpeg'
         },
         {
             id: 'history',
