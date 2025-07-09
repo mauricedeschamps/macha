@@ -1,10 +1,10 @@
 const CACHE_NAME = 'matcha-simple-v1';
 const urlsToCache = [
-    '/',
+    
     '/index.html',
     '/styles.css',
     '/app.js',
-    '/images/definition.jpg',
+    'images - 2025-07-08T170013.338.jpeg',
     '/images/history.jpg',
     '/images/health.jpg',
     '/images/types.jpg',
