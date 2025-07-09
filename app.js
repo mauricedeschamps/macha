@@ -34,7 +34,7 @@ const matchaData = {
             title: 'Uses',
             shortDesc: 'Traditional and modern',
             longDesc: 'Traditional: usucha (thin tea), koicha (thick tea). Modern: lattes, smoothies, desserts, noodles, seasonings. Also used in beauty products.',
-            image: 'images/uses.jpg'
+            image: 'images - 2025-07-09T104307.559.jpeg'
         },
         {
             id: 'global',
@@ -99,7 +99,7 @@ const matchaData = {
             title: '使い方',
             shortDesc: '伝統的と現代的な利用法',
             longDesc: '伝統的：薄茶、濃茶。現代的：ラテ、スムージー、デザート、麺類、調味料。美容製品にも使用されます。',
-            image: 'images/uses.jpg'
+            image: 'images - 2025-07-09T104307.559.jpeg'
         },
         {
             id: 'global',
