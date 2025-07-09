@@ -8,7 +8,7 @@ const urlsToCache = [
     'images - 2025-07-09T095327.142.jpeg',
     'images - 2025-07-09T104527.767.jpeg',
     'images - 2025-07-09T114616.823.jpeg',
-    '/images/uses.jpg',
+    'images - 2025-07-09T104307.559.jpeg',
     '/images/global.jpg',
     '/images/regions.jpg',
     '/images/storage.jpg',
