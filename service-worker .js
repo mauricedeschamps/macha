@@ -5,7 +5,7 @@ const urlsToCache = [
     '/styles.css',
     '/app.js',
     'images - 2025-07-08T170013.338.jpeg',
-    '/images/history.jpg',
+    'images - 2025-07-09T095327.142.jpeg',
     '/images/health.jpg',
     '/images/types.jpg',
     '/images/uses.jpg',
