@@ -48,7 +48,7 @@ const matchaData = {
             title: 'Production Regions',
             shortDesc: 'Japan\'s matcha areas',
             longDesc: 'Uji (Kyoto) - gold standard; Nishio (Aichi) - vibrant color; Yame (Fukuoka) - sweet flavor; Shizuoka - largest producer. Each has unique soil, climate and processing techniques.',
-            image: 'images/regions.jpg'
+            image: 'images - 2025-07-08T100625.280.jpeg'
         },
         {
             id: 'storage',
@@ -113,7 +113,7 @@ const matchaData = {
             title: '産地',
             shortDesc: '日本の主な抹茶産地',
             longDesc: '宇治（京都） - 最高級品、西尾（愛知） - 鮮やかな色、八女（福岡） - 甘み、静岡 - 最大の生産地。それぞれ土壌、気候、加工技術が異なります。',
-            image: 'images/regions.jpg'
+            image: 'images - 2025-07-08T100625.280.jpeg'
         },
         {
             id: 'storage',
