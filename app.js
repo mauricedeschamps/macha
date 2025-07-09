@@ -13,7 +13,7 @@ const matchaData = {
             title: 'History',
             shortDesc: 'From China to Japan',
             longDesc: 'Matcha was brought to Japan from China in the 12th century by Zen Buddhist monks. In the 16th century, Sen no Rikyu established the Japanese tea ceremony. Recently, its health benefits have made it popular worldwide.',
-            image: 'images/history.jpg'
+            image: 'images - 2025-07-09T095327.142.jpeg'
         },
         {
             id: 'health',
@@ -78,7 +78,7 @@ const matchaData = {
             title: '歴史',
             shortDesc: '中国から日本へ',
             longDesc: '抹茶は12世紀に栄西禅師によって中国から日本にもたらされました。16世紀に千利休が茶道を確立。近年、健康効果から世界的に人気です。',
-            image: 'images/history.jpg'
+            image: 'images - 2025-07-09T095327.142.jpeg'
         },
         {
             id: 'health',
