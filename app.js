@@ -55,7 +55,7 @@ const matchaData = {
             title: 'Storage',
             shortDesc: 'Keeping matcha fresh',
             longDesc: 'Store in air-tight containers in cool, dark place. Refrigerate for long-term. Use within 4-6 weeks after opening. Signs of spoilage: dull color, musty smell.',
-            image: 'images/storage.jpg'
+            image: 'images - 2025-07-09T125203.283.jpeg'
         },
         {
             id: 'summary',
@@ -120,7 +120,7 @@ const matchaData = {
             title: '保存方法',
             shortDesc: '抹茶を新鮮に保つ',
             longDesc: '密閉容器に入れ、涼しく暗い場所で保管。長期保存は冷蔵庫で。開封後は4-6週間以内に使用。劣化のサイン：色あせ、カビ臭。',
-            image: 'images/storage.jpg'
+            image: 'images - 2025-07-09T125203.283.jpeg'
         },
         {
             id: 'summary',
