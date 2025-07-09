@@ -41,7 +41,7 @@ const matchaData = {
             title: 'Global Popularity',
             shortDesc: 'Worldwide matcha boom',
             longDesc: 'Global market projected to reach $5 billion by 2027. Popular in health communities, coffee chains, and social media. Challenges include supply shortages and quality control.',
-            image: 'images/global.jpg'
+            image: 'images - 2025-07-09T095305.707.jpeg'
         },
         {
             id: 'regions',
@@ -106,7 +106,7 @@ const matchaData = {
             title: '世界的な人気',
             shortDesc: '世界の抹茶ブーム',
             longDesc: '世界市場は2027年までに50億ドル規模に成長予測。健康志向のコミュニティ、カフェチェーン、SNSで人気。供給不足や品質管理が課題です。',
-            image: 'images/global.jpg'
+            image: 'images - 2025-07-09T095305.707.jpeg'
         },
         {
             id: 'regions',
