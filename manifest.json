@@ -2,8 +2,11 @@
     "name": "Matcha Knowledge",
     "short_name": "Matcha",
     "description": "Everything about matcha green tea",
-    "start_url": "/",
-    "display": "standalone",
+
+  "start_url": "/index.html",  // 明示的に指定
+  "scope": "/",               // スコープを制限
+  "display": "standalone",     // 必ず指定
+
     "background_color": "#2d6a4f",
     "theme_color": "#2d6a4f",
     "icons": [
