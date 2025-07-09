@@ -12,7 +12,7 @@ const urlsToCache = [
     'images - 2025-07-09T095305.707.jpeg',
     'images - 2025-07-08T100625.280.jpeg',
     'images - 2025-07-09T125203.283.jpeg',
-    '/images/summary.jpg'
+    'images - 2025-07-09T133939.736.jpeg'
 ];
 
 self.addEventListener('install', event => {
