@@ -20,7 +20,7 @@ const matchaData = {
             title: 'Health Benefits',
             shortDesc: 'Why matcha is a superfood',
             longDesc: 'Matcha is rich in catechins (antioxidants), L-theanine (amino acid), chlorophyll, vitamins and minerals. Benefits include boosting metabolism, enhancing calm, improving focus, and supporting immune function.',
-            image: 'images/health.jpg'
+            image: 'images - 2025-07-09T104527.767.jpeg'
         },
         {
             id: 'types',
@@ -85,7 +85,7 @@ const matchaData = {
             title: '健康効果',
             shortDesc: '抹茶がスーパーフードと呼ばれる理由',
             longDesc: '抹茶はカテキン（抗酸化物質）、テアニン（アミノ酸）、クロロフィル、ビタミン・ミネラルが豊富。代謝向上、リラックス効果、集中力向上、免疫力サポートなどの利点があります。',
-            image: 'images/health.jpg'
+            image: 'images - 2025-07-09T104527.767.jpeg'
         },
         {
             id: 'types',
