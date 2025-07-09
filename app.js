@@ -62,7 +62,7 @@ const matchaData = {
             title: 'Summary',
             shortDesc: 'Essence of matcha',
             longDesc: 'Matcha combines tradition, health and versatility. From Zen origins to global popularity, it embodies Japanese culture while adapting to modern tastes. Future growth focuses on sustainability and innovation.',
-            image: 'images/summary.jpg'
+            image: 'images - 2025-07-09T133939.736.jpeg'
         }
     ],
     ja: [
@@ -127,7 +127,7 @@ const matchaData = {
             title: 'まとめ',
             shortDesc: '抹茶の本質',
             longDesc: '抹茶は伝統、健康、多様性を兼ね備えています。禅の起源から世界的な人気まで、日本の文化を体現しながら現代の味覚に適応しています。今後の成長は持続可能性と革新に焦点が当てられます。',
-            image: 'images/summary.jpg'
+            image: 'images - 2025-07-09T133939.736.jpeg'
         }
     ]
 };
