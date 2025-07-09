@@ -27,7 +27,7 @@ const matchaData = {
             title: 'Types & Selection',
             shortDesc: 'Grades and quality',
             longDesc: 'Ceremonial grade (highest quality), premium grade (daily drinking), culinary grade (cooking/baking). Look for vibrant green color, fresh aroma, fine texture, and reputable origins like Uji or Nishio.',
-            image: 'images/types.jpg'
+            image: 'images - 2025-07-09T114616.823.jpeg'
         },
         {
             id: 'uses',
@@ -92,7 +92,7 @@ const matchaData = {
             title: '種類と選び方',
             shortDesc: '等級と品質',
             longDesc: '抹茶には、 ceremonial grade（最高級）、premium grade（日常用）、culinary grade（料理用）があります。鮮やかな緑色、新鮮な香り、細かい粒子、宇治や西尾などの産地を確認しましょう。',
-            image: 'images/types.jpg'
+            image: 'images - 2025-07-09T114616.823.jpeg'
         },
         {
             id: 'uses',
